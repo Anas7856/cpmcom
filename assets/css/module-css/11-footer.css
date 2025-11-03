@@ -184,7 +184,17 @@
 
   padding-bottom: 60px;
 }
+@media (max-width: 500px) {
+  .site-footer__middle {
+    position: relative;
+    display: block;
+    margin-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
 
+    padding-bottom: 60px;
+  }
+}
 .footer-widget__single {
   position: relative;
   display: block;
