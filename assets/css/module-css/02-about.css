@@ -577,7 +577,7 @@ About Three
 .about-three {
   position: relative;
   display: block;
-  padding: 0px 0px 120px;
+  padding: 60px 0px 120px;
   overflow: hidden;
   z-index: 1;
 }
