@@ -469,6 +469,7 @@ Main Slider One
   margin-top: 0px;
   position: absolute;
   top: 50%;
+  display: none;
   left: 55px;
   transform: translateY(-50%);
   z-index: 99;

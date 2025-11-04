@@ -40,8 +40,10 @@
   }
 
   .about-one__content .sec-title__title {
-    font-size: 44px;
-    line-height: 58px;
+    font-size: 30px;
+    margin-top: 10px;
+    line-height: 20px;
+    color: rgb(32, 31, 31);
   }
 
   .about-one .shape1 {

@@ -20,8 +20,8 @@ Common
 =============================================
 ***/
 :root {
-  --CPCMConsulting-font: "Public Sans", sans-serif;
-  --CPCMConsulting-font-two: "Exo", sans-serif;
+  --CPCMConsulting-font: "Momo Trust Sans", sans-serif;
+  --CPCMConsulting-font-two: "Lexend", sans-serif;
   --CPCMConsulting-base: #0c5388;
   --CPCMConsulting-base-rgb: 255, 94, 20;
   --CPCMConsulting-black: #0e121d;
@@ -88,7 +88,9 @@ a:visited {
   color: inherit;
   opacity: 1;
 }
-
+.primary-title2 {
+  color: black !important;
+}
 h1,
 h2,
 h3,
@@ -281,15 +283,35 @@ Sec Title Css
 .sec-title {
   position: relative;
   display: block;
-  margin-top: -5px;
-  padding-bottom: 47px;
+  margin-top: 0px;
+  padding-bottom: 0px;
   z-index: 1;
 }
-
+.primary-title {
+  font-size: 60px !important;
+  font-weight: 700 !important;
+  color: #0c5388 !important;
+}
+@media (max-width: 600px) {
+  .primary-title {
+    font-size: 50px !important;
+  }
+}
+.primary-title2 {
+  font-size: 60px !important;
+  font-weight: 700 !important;
+  color: #0a0a0a !important;
+}
+@media (max-width: 600px) {
+  .primary-title2 {
+    font-size: 50px !important;
+  }
+}
 .sec-title__tagline {
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   margin-bottom: 13px;
 }
 
@@ -378,9 +400,10 @@ Sec Title Css
 }
 
 .sec-title__title {
-  font-size: 48px;
+  font-size: 50px;
   line-height: 58px;
-  font-weight: 700;
+  text-transform: uppercase;
+  font-weight: 400;
   text-transform: none;
   font-family: var(--CPCMConsulting-font-two);
 }

@@ -5,11 +5,13 @@
   position: relative;
   display: block;
   background: var(--CPCMConsulting-white);
-  padding: 120px 0 120px;
+  padding: 60px 0 120px;
   overflow: hidden;
   z-index: 1;
 }
-
+.about-two {
+  background-color: #5c9172 !important;
+}
 .about-one .shape1 {
   position: absolute;
   bottom: -5px;
@@ -173,11 +175,20 @@
 .about-one__content-text {
   position: relative;
   display: block;
-  margin-bottom: 31px;
+  margin-bottom: 10px;
 }
 
 .about-one__content-text p {
   margin: 0;
+}
+.about-one__content-text3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.about-one__content-text3 p {
+  color: rgb(255, 255, 255);
 }
 
 .about-one__content-text2 {
@@ -196,6 +207,7 @@
   position: relative;
   display: block;
   padding-left: 20px;
+  margin-top: 20px;
   margin-bottom: 5px;
 }
 
