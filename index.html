@@ -237,7 +237,6 @@
       <!--Start Main Slider One-->
       <section class="main-slider-one">
         <div class="main-slider__carousel owl-carousel owl-theme">
-          <!--Start Main Slider One Single-->
           <div class="main-slider-one__single">
             <div
               class="main-slider-one__bg"
@@ -260,29 +259,52 @@
                   <span>Your Vision, Our Blueprint</span>
                 </div>
                 <div class="title-box">
-                  <h2>
+                  <h2 class="animate-title">
                     Protecting Your <br />
                     Budget. Maximizing <br />
                     Your Project Efficiency.
                   </h2>
                 </div>
-
                 <div class="text-box">
                   <p>
                     Contractors and designers manage their projects <br />
-                    to maximize their profits ,but who’s protecting you?
+                    to maximize their profits, but who’s protecting you?
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <!--End Main Slider One Single-->
-
-          <!--Start Main Slider One Single-->
-
-          <!--End Main Slider One Single-->
         </div>
       </section>
+      <style>
+        /* Animation keyframes */
+        @keyframes fadeSlideUp {
+          0% {
+            opacity: 0;
+            transform: translateY(40px);
+          }
+          60% {
+            opacity: 1;
+            transform: translateY(-5px);
+          }
+          100% {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+
+        /* Apply animation */
+        .animate-title {
+          opacity: 0;
+          animation: fadeSlideUp 1.2s ease-out forwards;
+          animation-delay: 0.3s;
+        }
+
+        /* Optional: smooth animation when changing slides */
+        .owl-item.active .animate-title {
+          animation: fadeSlideUp 1.2s ease-out forwards;
+        }
+      </style>
       <!--End Main Slider One-->
 
       <!--Start About One-->
