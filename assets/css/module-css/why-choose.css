@@ -348,7 +348,7 @@ Why Choose Two
 }
 
 .why-choose-two__content-text p {
-  color: var(--CPCMConsulting-white);
+  color: white !important;
 }
 
 .why-choose-two__progress {
@@ -359,6 +359,7 @@ Why Choose Two
 
 .why-choose-two__progress li {
   position: relative;
+  color: white;
   display: block;
 }
 

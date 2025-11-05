@@ -400,12 +400,51 @@ Sec Title Css
 }
 
 .sec-title__title {
-  font-size: 60px !important;
-  line-height: 58px;
+  font-size: 55px !important;
+  line-height: 70px;
   text-transform: uppercase !important;
   font-weight: 700;
+  position: relative;
   text-transform: none;
   font-family: var(--CPCMConsulting-font-two);
+}
+.sec-title__title-before::before {
+  height: 4px;
+  width: 130px;
+  top: 70px;
+  left: 7px;
+  content: "";
+  background-color: #0c5388 !important;
+  position: absolute;
+}
+.sec-title__title-before2::before {
+  height: 4px;
+  width: 130px;
+  top: 60px;
+  left: 7px;
+  content: "";
+  background-color: #0c5388 !important;
+  position: absolute;
+}
+.sec-title__title-before3::before {
+  height: 4px;
+  width: 130px;
+  top: 50px;
+  left: 7px;
+  content: "";
+  background-color: #0c5388 !important;
+  position: absolute;
+}
+@media (max-width: 500px) {
+  .sec-title__title-before3::before {
+    display: none;
+  }
+  .sec-title__title-before2::before {
+    display: none;
+  }
+  .sec-title__title-before::before {
+    display: none;
+  }
 }
 .sec-title__title3 {
   font-size: 50px !important;
@@ -413,6 +452,7 @@ Sec Title Css
   text-transform: uppercase !important;
   font-weight: 700;
   text-transform: none;
+  position: relative;
   font-family: var(--CPCMConsulting-font-two);
 }
 @media (max-width: 500px) {
