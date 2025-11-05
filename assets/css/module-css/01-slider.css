@@ -120,7 +120,7 @@ Main Slider One
 }
 .main-slider-one__img2-img {
   /* height: 300px !important; */
-  width: 400px;
+  width: 300px;
 }
 
 .main-slider-one .active .main-slider-one__img2 {
@@ -136,8 +136,8 @@ Main Slider One
 .main-slider-one__content {
   position: relative;
   display: block;
-  padding-left: 90px;
-  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-bottom: 0px;
   overflow: hidden;
 }
 
@@ -285,7 +285,7 @@ Main Slider One
 
 .main-slider-one__content .title-box h2 {
   color: var(--CPCMConsulting-white);
-  font-size: 64px;
+  font-size: 55px;
   line-height: 1.2em;
   font-weight: 700;
   text-transform: capitalize;
