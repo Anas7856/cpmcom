@@ -401,7 +401,7 @@ Sec Title Css
 
 .sec-title__title {
   font-size: 55px !important;
-  line-height: 70px;
+  line-height: 60px;
   text-transform: uppercase !important;
   font-weight: 700;
   position: relative;
